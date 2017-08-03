@@ -1,0 +1,7 @@
+Credentials cache: API:4497B6E8-2F15-4988-8521-B8845439B71B
+        Principal: abergon@42.FR
+
+  Issued                Expires               Principal
+Aug  1 13:42:55 2017  Aug  8 13:42:55 2017  krbtgt/42.FR@42.FR
+Aug  1 13:42:56 2017  Aug  8 13:42:55 2017  ldap/ldap-proxy.42.fr@42.FR
+Aug  1 13:42:56 2017  Aug  8 13:42:55 2017  HTTP/student-storage-1.42.fr@42.FR
