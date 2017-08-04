@@ -6,10 +6,21 @@
 /*   By: abergon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/04 16:51:37 by abergon           #+#    #+#             */
-/*   Updated: 2017/08/04 16:53:14 by abergon          ###   ########.fr       */
+/*   Updated: 2017/08/05 00:40:26 by abergon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
 
-int ft
+void ft_is_negative(int n);
+
+int		ft_putchar(char c)
+{:
+	
+		
+int	main()
+{
+	ft_is_negative();
+	return(0);
+}
+
