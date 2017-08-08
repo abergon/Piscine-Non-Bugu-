@@ -6,13 +6,11 @@
 /*   By: abergon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/06 15:53:51 by abergon           #+#    #+#             */
-/*   Updated: 2017/08/06 20:08:55 by abergon          ###   ########.fr       */
+/*   Updated: 2017/08/07 21:28:31 by abergon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-intft_	putchar (char c);
+int		ft_putchar(char c);
 
 int		gitgud(int z)
 {
@@ -38,9 +36,9 @@ void	ft_print_comb2(void)
 		b = a + 1;
 		while (b <= 99)
 		{
-			gitgud(b);
-			write(1, " ", 1);
 			gitgud(a);
+			ft_putchar(' ');
+			gitgud(b);
 			if (a < 98 && b <= 99)
 			{
 				ft_putchar(',');

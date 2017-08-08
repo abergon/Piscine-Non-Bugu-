@@ -6,15 +6,13 @@
 /*   By: abergon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/06 20:23:05 by abergon           #+#    #+#             */
-/*   Updated: 2017/08/07 10:38:46 by abergon          ###   ########.fr       */
+/*   Updated: 2017/08/08 10:40:47 by abergon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
 int		ft_putchar(char c);
 
-int		ft_putnbr(int nb)
+void	ft_putnbr (int nb)
 {
 	if (nb < 0)
 	{
@@ -22,9 +20,6 @@ int		ft_putnbr(int nb)
 		nb = nb * -1;
 	}
 	if (nb >= 10)
-	{
 		ft_putnbr(nb / 10);
-	}
 	ft_putchar((nb % 10) + '0');
-	return (0);
 }
