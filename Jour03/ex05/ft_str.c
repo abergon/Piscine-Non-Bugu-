@@ -6,26 +6,20 @@
 /*   By: abergon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/09 16:49:41 by abergon           #+#    #+#             */
-/*   Updated: 2017/08/10 16:30:51 by abergon          ###   ########.fr       */
+/*   Updated: 2017/08/13 13:39:52 by abergon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-int		ft_putchar(char str)
-{
-	write(1, &str, 1);
-	return (0);
-}
+int		ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
-	str[5] = "truck"
-	ft_putchar(str);
-}
+	int i;
 
-int		main()
-{
-	ft_putstr(str);
-	return (0);
+	i = 0;
+	while (str[i] != '\0')
+	{
+		ft_putchar(i);
+		i++;
+	}
 }
