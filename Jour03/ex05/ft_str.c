@@ -6,7 +6,7 @@
 /*   By: abergon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/09 16:49:41 by abergon           #+#    #+#             */
-/*   Updated: 2017/08/13 13:39:52 by abergon          ###   ########.fr       */
+/*   Updated: 2017/08/15 00:19:06 by abergon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_putstr(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		ft_putchar(i);
+		ft_putchar(str[i]);
 		i++;
 	}
 }

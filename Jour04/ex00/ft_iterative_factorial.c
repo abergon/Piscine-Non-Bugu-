@@ -6,34 +6,26 @@
 /*   By: abergon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/13 18:54:24 by abergon           #+#    #+#             */
-/*   Updated: 2017/08/14 16:31:07 by abergon          ###   ########.fr       */
+/*   Updated: 2017/08/15 02:50:22 by abergon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-
-int		ft_putchar(char c)
-{
-	write (1, &c, 1);
-	return (0);
-}
 
 int		ft_iterative_factorial(int nb)
 {
 	int i;
-	int j;
 
 	i = 1;
-	while (i != nb)
+	if (nb < 0 || nb > 12)
+		return (0);
+	while(i < nb)
 	{
 		i++;
-		j = (i) * (i);
+		i = i * i;
 	}
-	ft_putchar(i);
-	ft_putchar(j);
-	return (0);
+	return (i);
 }
-int main ()
+
+int		main()
 {
 	ft_iterative_factorial(5);
 	return (0);
